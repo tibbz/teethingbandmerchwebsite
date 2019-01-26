@@ -1,0 +1,148 @@
+
+    {
+        "clothing":[{
+
+            "shirts": [{
+                    "photo": "style/clothing/friendsshirt1.jpg",
+                    "name": "We Were Friends T-Shirt",
+                    "info": "Slimetastic friendship wrecker. Illustration by Luis (www.instagram.com/luisiferlikestodraw).",
+                    "type": "Black Gildan Heavy Cotton T-shirt.",
+                    "price": "10€"
+                },
+                {
+                    "photo": "style/clothing/crateshirt.jpg",
+                    "name": "Cratediggers T-Shirt",
+                    "info": "Vinyl through the head. Illustration by Luis (www.instagram.com/luisiferlikestodraw).",
+                    "type": "Light Beige / Sand Gildan Heavy Cotton T-shirt.",
+                    "price": "10€"
+                },
+                {
+                    "photo": "style/clothing/skullsshirt.jpg",
+                    "name": "I Want Your Skulls T-Shirt",
+                    "info": "Illustration by Luis (www.instagram.com/luisiferlikestodraw).",
+                    "type": "White Gildan Heavy Cotton T-shirt. Only sizes L, XL available.", 
+                    "price": "10€"
+                },
+                {
+                    "photo": "style/clothing/promoshirt.jpg",
+                    "name": "We Will Regret This Someday T-Shirt",
+                    "info": "Illustration by Luis (www.instagram.com/luisiferlikestodraw).",
+                    "type": "Black Gildan Heavy Weight T-shirt. Only size S. You are purchasing a size S!",
+                    "price": "10€"
+                },
+                {
+                    "photo": "style/clothing/toyshirt.jpg",
+                    "name": "Forever Immature T-Shirt",
+                    "info": "Only available through our store for a limited time. These will not be available at shows or anywhere else. So if you want one, pick it up before pre-orders are over",
+                    "type": "Heavt Gildan",
+                    "price": "Sold Out"
+
+                }]
+
+        }],
+
+        "music":[{
+
+            "cd": [{
+                
+                    "photo": "style/music/thatnightcd.jpg",
+                    "name": "That Night We Regret - CD",
+                    "info": "‘That Night We Regret’ is the six track sequel and conclusory chapter of Teething's first full length. One year after the release of 'We Will Regret This Someday’, the boys return with another handful of violent, hot-tempered, grinding hardcore tunes.",
+                    "released_by": "Recorded and mixed at Sadman Studios and mastered at Audiosiege. Released through: Deadheroes Records, Grindhead Records, Toilet Teeth Records (Vinyl) , Selfmadegod Records (CD) , Abusive Noise Tapes (Tape).",
+                    "released_date": "November 22nd, 2018",
+                    "tracklist": "01. Politics or Whatever, 02. Vandalize!, 03. I Am Not Very Smart, 04. Heaven Has Forgotten The Children of Manila, 05. We Were Homies, 06. White Cross Impyerno",
+                    "price": "8€"
+                },
+                {
+                    "photo": "style/music/wewillregretcd.jpg",
+                    "name": "We Will Regret This Someday - CD",
+                    "info": "We Will Regret This Someday is the excruciating first album from Spain's most obnoxious cratediggers. After six long years of countless seven inches, Teething return with 12 tracks of no-bullshit, pissed-off, grinding hardcore in the shape of a full length. This chronicle is not only their most sincere work to date, it's a firm slap in the face. This CD comes in a regular transparent case. The limited 100 red jewel cases are only available in the 'Pizza Box' bundle or Selfmadegod Records directly.",
+                    "released_by": "This CD is released by Selfmadegod Records.",
+                    "released_date": "May 19th, 2017",
+                    "tracklist": "01. Mic Check, 02. You And Your Fucking Car, 03. Setting Fires, 04. Up In Smoke, 05. Filipino Violence, 06. Just Kids, 7. White Cross Introduction, 08. White Cross Inversion, 09. Take Me To A Doctor, 10. Subway Rat, 11. Life Is Peachy, 12. An Open Letter To My Best Friend",
+                    "price": "8€"
+                },
+                {
+                    "photo": "style/music/mapfuckedcd.jpg",
+                    "name": "The Map Says We're Fucked - CD",
+                    "info": "Discography CD including every piece of music released between 2011 and 2014. A compilation album which features all recorded material during the initial years. A collection of long out of print material from EP’s, splits, and compilation records. Includes a sticker and a deluxe 16-page booklet featuring extensive liner notes.",
+                    "released_by": "Released in CD by Hecatombe Records, Nooirax Producciones and Wooaaargh.",
+                    "release_date": "June 22nd, 2015",
+                    "tracklist": "01. Hell Song (02:25), 02. Fuck This Face (02:03) , 03. Broken Teeth (02:58) , 04. 1996 (02:07) , 05. Self-Extinction (01:36) , 06. Kill The Pope (00:32) , 07. Bad Seed (00:59) , 08. Shit Generation (01:16) , 09. Teethgrinder (00:13) , 10. Starting Fires (01:30) , 11. Donutshop Holocaust (01:30) , 12. Shittier Generation (01:34) , 13. How To Kill a Child (01:39), 14. Shot in the Fucking Head (02:16) , 15. Devilock! (00:25) , 16. White Cross Inversion (02:25) , 17. Asshole Cancer (01:21) , 18. Cratediggers (01:22) , 19. We Were Friends (01:27)",
+                    "price": "8€"
+                }
+
+            ],
+
+            "vinyl": [{
+
+                    "photo": "style/music/thatnightvinyl.jpg",
+                    "name": "That Night We Regret - 12'' Vinyl",
+                    "info": "‘That Night We Regret’ is the six track sequel and conclusory chapter of Teething's first full length. One year after the release of 'We Will Regret This Someday’, the boys return with another handful of violent, hot-tempered, grinding hardcore tunes.",
+                    "released_by": "Recorded and mixed at Sadman Studios and mastered at Audiosiege. Released through: Deadheroes Records, Grindhead Records, Toilet Teeth Records (Vinyl) , Selfmadegod Records (CD) , Abusive Noise Tapes (Tape).",
+                    "released_date": "Released date November 22, 2018",
+                    "tracklist": "01. Politics or Whatever, 02. Vandalize!, 03. I Am Not Very Smart, 04. Heaven Has Forgotten The Children of Manila, 05. We Were Homies, 06. White Cross Impyerno",
+                    "price": "11€"
+                },
+
+                {
+                    "photo": "style/music/wewillregretvinyl.jpg",
+                    "name": "We Will Regret This Someday - 12'' Vinyl",
+                    "info": "We Will Regret This Someday is the excruciating first album from Spain's most obnoxious cratediggers. After six long years of countless seven inches, Teething return with 12 tracks of no-bullshit, pissed-off, grinding hardcore in the shape of a full length. This chronicle is not only their most sincere work to date, it's a firm slap in the face. This vinyl comes in a thick gatefold jacket with a lyric insert. This is the black vinyl. The colored red & green haze vinyl is only available through the 'Pizza bundle' or Dead Heroes directly.",
+                    "released_by": "This vinyl is released by Dead Heroes Records.",
+                    "released_date": "May 19th, 2017",
+                    "tracklist": "01. Mic Check, 02. You And Your Fucking Car, 03. Setting Fires, 04. Up In Smoke, 05. Filipino Violence, 06. Just Kids, 7. White Cross Introduction, 08. White Cross Inversion, 09. Take Me To A Doctor, 10. Subway Rat, 11. Life Is Peachy, 12. An Open Letter To My Best Friend",
+                    "price": "12€"
+                }
+
+            ]
+        }],
+
+        "miscelaneous":[{
+
+            "boxsets": [{
+                    "photo":"style/others/thatnightpizzabox.jpg",
+                    "name": "That Night We Regret (Exclusive Pizza Box Bundle) - Limited to 50",
+                    "info": "The PIZZA BOXSET BUNDLE is stricly limited to 50 units and includes: Exclusive individually hand painted & numbered pizza box, Ralph Action Figure - Limited to 66, Exclusive T-Shirt (Gildan Heavy Cotton), That Night We Regret 12” Vinyl (with silkscreened B-side), That Night We Regret CD (with 9 bonus tracks), That Night We Regret Tape (with 9 bonus tracks)",
+                    "type": "Pizza Box Set",
+                    "price": "Sold Out"
+                }
+            ],
+
+            "toys": [{
+                    "photo":"style/others/toy1.jpg",
+                    "name": "The Ralph Action Figure",
+                    "info": "Meet Ralph! Sixty six action figures have been created for the release of the 'That Night We Regret' EP. This creep comes in a classic 80's packaging for your inner nostalgia needs. Sculpted and individually hand painted by the talented Yum Yum Toys (www.instagram.com/yumyum_toys/)",
+                    "type": "Toy",
+                    "price": "Sold Out"
+                    }
+            ]
+    }],
+
+    "contact": [{
+        "name": "Teething",
+        "photo": "style/others/teeth.jpg",
+        "bandmembers": "Vocals: Luisifer, Guitar: Antonio, Bass: David, Drums: Alvaro",
+        "email": "teethingband@gmail.com",
+        "facebook": "https://www.facebook.com/teethingband",
+        "bandcamp": "https://teething.bandcamp.com",
+        "instagram": "https://www.instagram.com/teethingband",
+        "youtube": "https://www.youtube.com/user/teethingband",
+        "spotify": "https://open.spotify.com/artist/6ZZMlnlr0tANTRa6mSLlbx?si=Sqe1RBXXQOGqhsNnY82dKg"
+        }], 
+
+    "luisifer": [{
+        "books": [{
+
+            
+
+        }],
+
+        "prints": [{
+
+
+
+        }]
+    }]
+
+}

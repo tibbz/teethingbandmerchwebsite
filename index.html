@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link rel="stylesheet" href="style/main.css">
+<title>Teething Official Store</title>
+</head>
+
+<body>
+<div id="app">
+    <div class="teethingofficial">
+
+        <div class="banner">
+            <header class="bannerpic">
+                <img class="tbanner" alt="teethingbanner" src="style/others/teethingbanner.jpg">
+            </header>
+        </div>
+
+        <div class="storefilter">
+            <input type="text" class="searcher" id="storesearch" placeholder="search by any word" @keyup="callinput" autofocus />
+        </div>
+
+        <div class="nav">
+            <ul class="menu">
+                <li id="mel"><a id="mitem" href="#home">Home</a></li>
+                <li class="dropdown" id="mel">
+                    <a class="dropbtn" id="mitem">Merch</a>
+                    <div class="dropdown-content">
+                        <a href="#" id="mitem2">Shirts</a>
+                        <a href="#" id="mitem2">Caps</a>
+                    </div>
+                </li>
+                <li class="dropdown" id="mel">
+                        <a class="dropbtn" id="mitem" >Music</a>
+                        <div class="dropdown-content">
+                          <a href="#" id="mitem2">Vinyl</a>
+                          <a href="#" id="mitem2">CD</a>
+                        </div>
+                </li>
+                <li id="mel"><a href="#contact" id="mitem">Contact</a></li>
+                <li class="dropdown" id="mel">
+                        <a class="dropbtn" id="mitem">Luisifer</a>
+                        <div class="dropdown-content">
+                          <a id="mitem2" href="#">Books</a>
+                          <a id="mitem2" href="#">Prints</a>
+                          <a id="mitem2" href="#">Originals</a>
+                        </div>
+                </li>
+            </ul>
+        </div>
+
+      <div class="allmerch">
+
+            <div id="f1_container" class="merchsquare"  v-for="v in clothing.shirts">
+                <div id="f1_card" class="shadow">
+                    <div class="front face">
+                        <img class="pic" v-bind:src="v.photo">
+                        <h3>{{v.name}}</h3>
+                        <h4 class="price">{{v.price}}</h4>
+                    </div>
+                    <div class="back face enter">
+                        <img class="pic2" v-bind:src="v.photo">
+                        <h4>{{v.name}}</h4>
+                        <p class="type">{{v.type}}</p>
+                        <p class="info">{{v.info}}</p>   
+                        <h4 class="price">{{v.price}}</h4>
+                        <input type="submit" value="Add to cart" class="addcart">
+                    </div>
+                </div>
+            </div> 
+
+                <div id="f1_container" class="merchsquare" v-for="v in music.cd">
+                    <div id="f1_card" class="shadow" >
+                        <div class="front face">
+                            <img class="pic" v-bind:src="v.photo">
+                            <h3>{{v.name}}</h3>
+                            <h4 class="price">{{v.price}}</h4>
+                        </div>
+                        <div class="back face enter">
+                            <img class="pic2" v-bind:src="v.photo">
+                            <h4>{{v.name}}</h4>
+                            <p class="info">{{v.info}}</p>
+                            <p class="released_by">Released by: {{v.released_by}}</p>
+                            <p class="released_date">Released date: {{v.released_date}}</p>
+                            <h4 class="price">{{v.price}}</h4>
+                            <input type="submit" value="Add to cart" class="addcart">
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="f1_container" class="merchsquare" v-for="v in music.vinyl">
+                        <div id="f1_card" class="shadow" >
+                            <div class="front face">
+                                <img class="pic" v-bind:src="v.photo">
+                                <h3>{{v.name}}</h3>
+                                <p class="price">{{v.price}}</p>
+                            </div>
+                            <div class="back face enter">
+                                <img class="pic2" v-bind:src="v.photo">
+                                <h4>{{v.name}}</h4>
+                                <p class="info">{{v.info}}</p>
+                                <p class="released_by">Released by: {{v.released_by}}</p>
+                                <p class="released_date">Released date: {{v.released_date}}</p>
+                                <p class="price">{{v.price}}</p>
+                                <input type="submit" value="Add to cart" class="addcart">
+                            </div>
+                        </div>
+                    </div> 
+
+                <div id="f1_container" class="merchsquare"  v-for="v in misc.toys">
+                    <div id="f1_card" class="shadow">
+                        <div class="front face">
+                            <img class="pic" v-bind:src="v.photo">
+                            <h3>{{v.name}}</h3>
+                            <h4 class="price">{{v.price}}</h4>
+                        </div>
+                        <div class="back face enter">
+                            <img class="pic2" v-bind:src="v.photo">
+                            <h4>{{v.name}}</h4>
+                            <p class="type">{{v.type}}</p>
+                            <p class="info">{{v.info}}</p>
+                            <h4 class="price">{{v.price}}</h4>
+                            <input type="submit" value="Add to cart" class="addcart">
+                        </div>
+                    </div>
+                </div> 
+
+                <div id="f1_container" class="merchsquare"  v-for="v in misc.boxsets">
+                        <div id="f1_card" class="shadow">
+                            <div class="front face">
+                                <img class="pic" v-bind:src="v.photo">
+                                <h3>{{v.name}}</h3>
+                                <h4 class="price">{{v.price}}</h4>
+                            </div>
+                            <div class="back face enter">
+                                <img class="pic2" v-bind:src="v.photo">
+                                <h3>{{v.name}}</h3>
+                                <p class="type">{{v.type}}</p>
+                                <p class="info">{{v.info}}</p>
+                                <h4 class="price">{{v.price}}</h4>
+                                <input type="submit" value="Add to cart" class="addcart">
+                            </div>
+                        </div>
+                    </div> 
+
+                    <div id="meme">
+                        <p>Sozzz! No items found by search criteria, but here you have a picture with Bingo.</p>
+                        <img class="tbingo" src="style/withbingo.jpg">
+                    </div>
+
+    </div>
+
+      <div class="contact">
+
+        <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbx4A6x0krJfwfHuNmFIi5T9L9IWT2EHCotxzOnh/exec">
+            Name: <input type="text" name="name"><br>
+            Message: <input type="text" name="message"><br>
+            Email: <input type="email" name="email"><br>
+            <input type="submit" value="Submit">
+        </form>
+
+        <div style="display:none;" id="thankyou_message">
+            <h2><em>Thanks</em> for contacting us!
+            We will get back to you soon!</h2>
+        </div>
+
+        <div v-for="value in contact">
+            <p>{{value.name}}</p>
+            <p>{{value.bandmembers}}</p>
+            <p>Facebook: <a :href="value.facebook" target="_blank">{{value.facebook}}</a></p>
+            <p>Bandcamp: <a :href="value.bandcamp" target="_blank">{{value.bandcamp}}</a></p>
+            <p>Instagram: <a :href="value.instagram" target="_blank">{{value.instagram}}</a></p>
+            <p>Youtube: <a :href="value.youtube" target="_blank">{{value.youtube}}</a></p>
+            <p>Spotify: <a :href="value.spotify" target="_blank">{{value.spotify}}</a></p>
+        </div>
+
+      </div>
+
+    </div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+    <script src="scripts/main.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
+</body>
+
+</html>
